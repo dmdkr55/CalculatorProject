@@ -2,7 +2,7 @@ package levelTwo;
 
 import java.util.ArrayList;
 
-public class Calculator {
+public class CalculatorLv2 {
 
     private ArrayList<Integer> results = new ArrayList<>();
 

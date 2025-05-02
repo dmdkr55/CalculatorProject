@@ -1,13 +1,12 @@
 package levelTwo;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class App {
+public class AppLv2 {
     public static void main(String[] args) {
 
-        Calculator cal = new Calculator();
+        CalculatorLv2 cal = new CalculatorLv2();
         Scanner sc = new Scanner(System.in);
 
         boolean endFlag = false;
