@@ -14,7 +14,7 @@ public class CalculatorLv2 {
         this.results = results;
     }
 
-    public int calculate(int n1, int n2, char op){
+    public int calculate(int n1, int n2, char op) {
         int result = 0;
         switch (op) {
             case '+':
@@ -37,8 +37,8 @@ public class CalculatorLv2 {
         return result;
     }
 
-    public void removeResult(){
-        if (!results.isEmpty()){
+    public void removeResult() {
+        if (!results.isEmpty()) {
             results.remove(0);
         }
     }
